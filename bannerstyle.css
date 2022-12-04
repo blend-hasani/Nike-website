@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+.navigation{
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+.navigation a{
+    color: white;
+    text-decoration: none;
+}
+
+.navigation a:hover{
+    background-color: white;
+    color: red;
+    border-radius: 10px;
+}
+
+.banner{
+    background-image: url(images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 35px;
+}
+
+#readmore{
+    text-decoration: none;
+    font-family: 'Fredoka One', cursive;
+    color: red;
+}
+
+#readmore:hover{
+    text-decoration: none;
+    font-family: 'Fredoka One', cursive;
+    color: white;
+    background-color: red;
+}
+ .banner button {
+    color: red;
+    padding: 5px;
+    font-size: 35px;
+    background-color: white;
+    border-radius: 25px;
+    border-radius: red;
+    border: none;
+    font-family: 'Fredoka One', cursive;
+    text-decoration: none;
+
+}
+button:hover{
+    color: red;
+    background-color: red;
+    font-family: 'Fredoka One', cursive;
+    text-decoration: none;
+}
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    
+}
+
+#nike{
+    text-decoration: none;
+    color: white;
+    font-family: 'Fredoka One', cursive;
+    font-size: 35px;
+}
+
+li{
+    text-decoration: none;
+    color: white;
+    font-family: 'Fredoka One', cursive;
+    padding: 0px;
+    font-size: 25px;
+    margin-left: 10px;
+
+}
+
+
+.shoes{
+    width: 100%;
+    height: 70vh;
+}
+
+
+.clothing{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.shoes{
+    background-image: url(images/cool-background.png);
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.shoes1{
+    margin: auto;
+}
+
+.shoes2{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    font-family: 'Fredoka One', cursive;
+    font-size: 25px;
+
+}
+
+.equipment{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+    background-image: url(images/cool-background2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+.equipment1{
+    margin: auto;
+}
+
+
+
+.footer{
+    margin-top: 40px;
+    width: 100%;
+    height: 50vh;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+img {
+     margin: 0 auto; 
+     display: block;
+}
